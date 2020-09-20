@@ -1,3 +1,23 @@
+# Arianrhod RPG 2E Character Sheet Project.
+
+## ローカルでの立ち上げ方
+1. `npm install`
+2. `npm run dev`
+3. `localhost:5000` で確認
+
+## デプロイ用ビルド
+1. `npm run build`
+
+## production mode での起動
+1. `npm run build`
+2. `npm run start`
+
+---
+
+以下 sveltejs/template　のデフォルトREADMEE.md
+
+---
+
 *Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
 
 ---
