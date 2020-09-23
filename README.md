@@ -1,16 +1,16 @@
 # Arianrhod RPG 2E Character Sheet Project.
 
 ## ローカルでの立ち上げ方
-1. `npm install`
-2. `npm run dev`
+1. `yarn`
+2. `yarn dev`
 3. `localhost:5000` で確認
 
 ## デプロイ用ビルド
-1. `npm run build`
+1. `yarn build`
 
 ## production mode での起動
-1. `npm run build`
-2. `npm run start`
+1. `yarn build`
+2. `yarn start`
 
 ---
 
