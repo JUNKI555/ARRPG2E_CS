@@ -1,30 +1,27 @@
 <script lang="ts">
-	export let name: string;
+	import Title from './components/Title.svelte';
+	//export let name: string;
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+<Title version={"0.01"} />
+
+
+
+<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
 </main>
 
 <style lang="scss">
 	main {
 		text-align: center;
 		padding: 1em;
-		max-width: 240px;
+		width: 1024px;
 		margin: 0 auto;
 	}
 
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	@media (min-width: 640px) {
+	@media (max-width: 480px) {
 		main {
-			max-width: none;
+			width: 480px;
 		}
 	}
 </style>
