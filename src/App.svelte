@@ -1,16 +1,21 @@
 <script lang="ts">
 	import Title from './components/Title.svelte';
-	//export let name: string;
+	import ProfileInfo from './components/ProfileInfo.svelte';
+	export let name: string;
+	name = "hoge";
 </script>
 
 <main>
 <Title version={"0.01"} />
 <hr style="margin-bottom: 2em;">
-<div class="ar-profile-info">
-<div class="nes-container is-round is-dark with-title">
-  <p class="title">基本情報</p>
-  <p>Good morning. Thou hast had a good night's sleep, I hope.</p>
-</div>
+
+<div class="ar-nes-container-outer">
+	<div class="nes-container is-rounded is-dark with-title">
+		<p class="title">基本情報</p>
+		<div class="ar-nes-container-inner">
+			<ProfileInfo/>
+		</div>
+	</div>
 </div>
 
 <hr style="margin-top: 2em;">
@@ -34,12 +39,16 @@
 		}
 	}
 
-	.ar-profile-info {
+	.ar-nes-container-outer {
 		text-align: left;
-		max-width: 50%;
+		max-width: 100%;
 
 		@media screen and (max-width: 480px) {
 			max-width: 100%;
 		}
+	}
+
+	.ar-nes-container-inner {
+		margin: 0 -1em;
 	}
 </style>

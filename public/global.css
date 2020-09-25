@@ -14,6 +14,7 @@ body {
 	background-color: #212529;
 	margin: 0;
 	padding: 8px;
+	font-size: 16px;
 	box-sizing: border-box;
 	font-family: "PixelMplus", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
 }
@@ -69,14 +70,63 @@ button:focus {
 }
 
 /* NES.css 上書き */
-.nes-container.with-title>.title {
-	margin: -0.8rem 0 2px;
-}
-
 .nes-container {
 	padding: 2px 0.5rem;
 }
 
 .nes-container.is-dark {
 	margin: 0;
+}
+
+.nes-container.with-title>.title {
+	margin: -0.8rem 0 2px;
+}
+
+.nes-container.is-rounded.is-dark {
+	padding: 2px 1rem;
+	border-image-repeat: stretch;
+}
+
+.nes-container.is-rounded.is-dark.with-title>.title {
+	margin: -0.8rem 0 2px;
+}
+
+.nes-container.is-rounded.is-dark {
+	border-image-width: 2;
+}
+
+.nes-balloon.is-dark, .nes-btn, .nes-dialog.is-rounded.is-dark, .nes-progress.is-rounded, .nes-select select, .nes-table.is-dark.is-bordered {
+	border-width: 2px;
+}
+
+.nes-table.is-dark.is-bordered {
+	border-image-width: 1;
+}
+
+.nes-table td, .nes-table th {
+	border-width: 0 0.15em 0.15em 0;
+}
+
+.nes-table.is-dark::before {
+	content: none;
+}
+
+.nes-input, .nes-textarea {
+	border-image-width: 1;
+	padding: 0;
+}
+
+.nes-field.is-inline > label {
+	margin: 0;
+	flex-grow: 3;
+}
+
+@media screen and (max-width: 768px) {
+  .nes-field.is-inline {display: flex;}
+  .nes-field.is-inline > label { margin-bottom: 0.5rem; text-align: left; }
+  .nes-field.is-inline .nes-input { max-width: 100%; }
+}
+
+.nes-balloon, .nes-balloon.is-dark, .nes-btn, .nes-container.is-rounded, .nes-container.is-rounded.is-dark, .nes-dialog.is-rounded, .nes-dialog.is-rounded.is-dark, .nes-input, .nes-progress, .nes-progress.is-rounded, .nes-select select, .nes-table.is-bordered, .nes-table.is-dark.is-bordered, .nes-textarea {
+	border-width: 3px;
 }
