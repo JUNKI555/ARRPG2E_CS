@@ -3,7 +3,7 @@
 </script>
 
 <h1><span class="first">アリアンロッド</span><span class="last">RPG</span><span class="number">2E</span></h1>
-<h2>プロフィールシートエディタ ver:{version}</h2>
+<h2>キャラクターシートエディタ ver:{version}</h2>
 
 <style lang="scss">
 	h1 {
@@ -39,6 +39,6 @@
   }
   
   h2 {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 </style>

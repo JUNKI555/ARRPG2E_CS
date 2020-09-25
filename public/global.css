@@ -67,3 +67,16 @@ button:not(:disabled):active {
 button:focus {
 	border-color: #666;
 }
+
+/* NES.css 上書き */
+.nes-container.with-title>.title {
+	margin: -0.8rem 0 2px;
+}
+
+.nes-container {
+	padding: 2px 0.5rem;
+}
+
+.nes-container.is-dark {
+	margin: 0;
+}
