@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Title from './components/Title.svelte';
 	import ProfileInfo from './components/ProfileInfo.svelte';
+	import ClassInfo from './components/ClassInfo.svelte';
 	export let name: string;
 	name = "hoge";
 </script>
@@ -14,6 +15,15 @@
 		<p class="title">基本情報</p>
 		<div class="ar-nes-container-inner">
 			<ProfileInfo/>
+		</div>
+	</div>
+</div>
+
+<div class="ar-nes-container-outer">
+	<div class="nes-container is-rounded is-dark with-title">
+		<p class="title">クラス情報</p>
+		<div class="ar-nes-container-inner">
+			<ClassInfo/>
 		</div>
 	</div>
 </div>
@@ -42,6 +52,7 @@
 	.ar-nes-container-outer {
 		text-align: left;
 		max-width: 100%;
+		margin-top: 1em;
 
 		@media screen and (max-width: 480px) {
 			max-width: 100%;
