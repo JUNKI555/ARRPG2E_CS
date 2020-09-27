@@ -21,6 +21,42 @@
 
 <div class="ar-nes-container-outer">
 	<div class="nes-container is-rounded is-dark with-title">
+		<p class="title">ライフパス</p>
+		<div class="ar-nes-container-inner">
+
+		</div>
+	</div>
+</div>
+
+<div class="ar-nes-container-outer">
+	<div class="nes-container is-rounded is-dark with-title">
+		<p class="title">キャラクターLv1時のクラス</p>
+		<div class="ar-nes-container-inner">
+
+		</div>
+	</div>
+</div>
+
+<div class="ar-nes-container-outer">
+	<div class="nes-container is-rounded is-dark with-title">
+		<p class="title">所属ギルド</p>
+		<div class="ar-nes-container-inner">
+
+		</div>
+	</div>
+</div>
+
+<div class="ar-nes-container-outer">
+	<div class="nes-container is-rounded is-dark with-title">
+		<p class="title">ゲッシュ</p>
+		<div class="ar-nes-container-inner">
+
+		</div>
+	</div>
+</div>
+
+<div class="ar-nes-container-outer">
+	<div class="nes-container is-rounded is-dark with-title">
 		<p class="title">クラス情報</p>
 		<div class="ar-nes-container-inner">
 			<ClassInfo/>
@@ -61,5 +97,10 @@
 
 	.ar-nes-container-inner {
 		margin: 0 -1em;
+
+		&.hide {
+			visibility: hidden;
+			height: 0;
+		}
 	}
 </style>
