@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Title from './components/Title.svelte';
 	import ProfileInfo from './components/ProfileInfo.svelte';
+	import LifePath from './components/LifePath.svelte';
 	import ClassInfo from './components/ClassInfo.svelte';
 	export let name: string;
 	name = "hoge";
@@ -23,7 +24,7 @@
 	<div class="nes-container is-rounded is-dark with-title">
 		<p class="title">ライフパス</p>
 		<div class="ar-nes-container-inner">
-
+			<LifePath/>
 		</div>
 	</div>
 </div>
