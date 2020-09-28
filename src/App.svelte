@@ -4,6 +4,7 @@
 	import LifePath from './components/LifePath.svelte';
 	import ClassInfoLv1 from './components/ClassInfoLv1.svelte';
 	import Guild from './components/Guild.svelte';
+	import Geis from './components/Geis.svelte';
 	import ClassInfo from './components/ClassInfo.svelte';
 	export let name: string;
 	name = "hoge";
@@ -53,7 +54,7 @@
 	<div class="nes-container is-rounded is-dark with-title">
 		<p class="title">ゲッシュ</p>
 		<div class="ar-nes-container-inner">
-
+			<Geis/>
 		</div>
 	</div>
 </div>
