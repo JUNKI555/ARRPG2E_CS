@@ -28,6 +28,7 @@ Built With:
 - [Svelte](https://svelte.dev/)
 - TypeScript
 - SCSS
+- [NES.css](https://nostalgic-css.github.io/NES.css/)
 - [favicon.io](https://favicon.io/)
 
 ---
