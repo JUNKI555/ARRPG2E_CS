@@ -130,3 +130,16 @@ button:focus {
 .nes-balloon, .nes-balloon.is-dark, .nes-btn, .nes-container.is-rounded, .nes-container.is-rounded.is-dark, .nes-dialog.is-rounded, .nes-dialog.is-rounded.is-dark, .nes-input, .nes-progress, .nes-progress.is-rounded, .nes-select select, .nes-table.is-bordered, .nes-table.is-dark.is-bordered, .nes-textarea {
 	border-width: 3px;
 }
+
+i.nes-icon.close.is-small::before {
+	content: "";
+	width: 1px;
+	height: 1px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.nes-icon.close.is-small {
+	background-color: #CCC;
+}

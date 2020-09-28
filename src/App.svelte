@@ -8,6 +8,14 @@
 	import ClassInfo from './components/ClassInfo.svelte';
 	export let name: string;
 	name = "hoge";
+
+	let hideProfileInfo = false
+	,hideLifePath = true
+	,hideClassInfoLv1 = true
+	,hideGuild = true
+	,hideGeis = true
+	,hideClassInfo = false;
+
 </script>
 
 <main>
@@ -16,8 +24,8 @@
 
 <div class="ar-nes-container-outer">
 	<div class="nes-container is-rounded is-dark with-title">
-		<p class="title">基本情報</p>
-		<div class="ar-nes-container-inner">
+		<p class="title" on:click="{() => hideProfileInfo = !hideProfileInfo}">基本情報&nbsp;<i class="nes-icon close is-small"></i></p>
+		<div class="ar-nes-container-inner" class:hide="{hideProfileInfo}">
 			<ProfileInfo/>
 		</div>
 	</div>
@@ -25,8 +33,8 @@
 
 <div class="ar-nes-container-outer">
 	<div class="nes-container is-rounded is-dark with-title">
-		<p class="title">ライフパス</p>
-		<div class="ar-nes-container-inner">
+		<p class="title" on:click="{() => hideLifePath = !hideLifePath}">ライフパス&nbsp;<i class="nes-icon close is-small"></i></p>
+		<div class="ar-nes-container-inner" class:hide="{hideLifePath}">
 			<LifePath/>
 		</div>
 	</div>
@@ -34,8 +42,8 @@
 
 <div class="ar-nes-container-outer">
 	<div class="nes-container is-rounded is-dark with-title">
-		<p class="title">キャラクターLv1時のクラス</p>
-		<div class="ar-nes-container-inner">
+		<p class="title" on:click="{() => hideClassInfoLv1 = !hideClassInfoLv1}">キャラクターLv1時のクラス&nbsp;<i class="nes-icon close is-small"></i></p>
+		<div class="ar-nes-container-inner" class:hide="{hideClassInfoLv1}">
 			<ClassInfoLv1/>
 		</div>
 	</div>
@@ -43,8 +51,8 @@
 
 <div class="ar-nes-container-outer">
 	<div class="nes-container is-rounded is-dark with-title">
-		<p class="title">所属ギルド</p>
-		<div class="ar-nes-container-inner">
+		<p class="title" on:click="{() => hideGuild = !hideGuild}">所属ギルド&nbsp;<i class="nes-icon close is-small"></i></p>
+		<div class="ar-nes-container-inner" class:hide="{hideGuild}">
 			<Guild/>
 		</div>
 	</div>
@@ -52,8 +60,8 @@
 
 <div class="ar-nes-container-outer">
 	<div class="nes-container is-rounded is-dark with-title">
-		<p class="title">ゲッシュ</p>
-		<div class="ar-nes-container-inner">
+		<p class="title" on:click="{() => hideGeis = !hideGeis}">ゲッシュ&nbsp;<i class="nes-icon close is-small"></i></p>
+		<div class="ar-nes-container-inner" class:hide="{hideGeis}">
 			<Geis/>
 		</div>
 	</div>
@@ -61,8 +69,8 @@
 
 <div class="ar-nes-container-outer">
 	<div class="nes-container is-rounded is-dark with-title">
-		<p class="title">クラス情報</p>
-		<div class="ar-nes-container-inner">
+		<p class="title" on:click="{() => hideClassInfo = !hideClassInfo}">クラス情報&nbsp;<i class="nes-icon close is-small"></i></p>
+		<div class="ar-nes-container-inner" class:hide="{hideClassInfo}">
 			<ClassInfo/>
 		</div>
 	</div>
