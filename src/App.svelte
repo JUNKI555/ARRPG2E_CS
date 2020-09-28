@@ -2,6 +2,7 @@
 	import Title from './components/Title.svelte';
 	import ProfileInfo from './components/ProfileInfo.svelte';
 	import LifePath from './components/LifePath.svelte';
+	import ClassInfoLv1 from './components/ClassInfoLv1.svelte';
 	import ClassInfo from './components/ClassInfo.svelte';
 	export let name: string;
 	name = "hoge";
@@ -33,7 +34,7 @@
 	<div class="nes-container is-rounded is-dark with-title">
 		<p class="title">キャラクターLv1時のクラス</p>
 		<div class="ar-nes-container-inner">
-
+			<ClassInfoLv1/>
 		</div>
 	</div>
 </div>
