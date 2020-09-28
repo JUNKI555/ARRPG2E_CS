@@ -2,7 +2,7 @@
 
 ## commit messages
 git emoji
-参考：[fitmoji](https://gitmoji.carloscuesta.me/)
+参考：[gitmoji](https://gitmoji.carloscuesta.me/)
 
 ## ローカルでの立ち上げ方
 1. `yarn`
