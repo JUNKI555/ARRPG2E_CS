@@ -4,27 +4,28 @@
 git emoji
 参考：[gitmoji](https://gitmoji.carloscuesta.me/)
 
-## ローカルでの立ち上げ方
+## 開発の流れ
+### ローカルでの立ち上げ方
 1. `yarn`
 2. `yarn dev`
 3. `localhost:5000` で確認
 
-## ローカルで立ち上げて同じwifi内の別端末(スマホなど)で確認
+### ローカルで立ち上げて同じwifi内の別端末(スマホなど)で確認
 1. `yarn devMobile`
 
 参考：
 By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
 
-## デプロイ用ビルド
+### デプロイ用ビルド
 1. `yarn build`
 
-## production mode での起動
+### production mode での起動
 1. `yarn build`
 2. `yarn start`
 
 ---
 
-Built With:
+## Built With:
 - [Svelte](https://svelte.dev/)
 - TypeScript
 - SCSS
