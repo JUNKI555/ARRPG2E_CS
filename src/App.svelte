@@ -3,6 +3,7 @@
 	import ProfileInfo from './components/ProfileInfo.svelte';
 	import LifePath from './components/LifePath.svelte';
 	import ClassInfoLv1 from './components/ClassInfoLv1.svelte';
+	import Guild from './components/Guild.svelte';
 	import ClassInfo from './components/ClassInfo.svelte';
 	export let name: string;
 	name = "hoge";
@@ -43,7 +44,7 @@
 	<div class="nes-container is-rounded is-dark with-title">
 		<p class="title">所属ギルド</p>
 		<div class="ar-nes-container-inner">
-
+			<Guild/>
 		</div>
 	</div>
 </div>
