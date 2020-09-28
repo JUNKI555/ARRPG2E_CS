@@ -31,8 +31,8 @@
         </td>
       </tr>
     </tbody>
-  </table>
-</div>
+    </table>
+  </div>
 </div>
 
 <style lang="scss">
