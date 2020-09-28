@@ -24,6 +24,14 @@ By default, the server will only respond to requests from localhost. To allow co
 
 ---
 
+Built With:
+- [Svelte](https://svelte.dev/)
+- TypeScript
+- SCSS
+- [favicon.io](https://favicon.io/)
+
+---
+
 以下 sveltejs/template　のデフォルト README.md を一部残し
 
 ---
