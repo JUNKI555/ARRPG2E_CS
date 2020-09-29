@@ -12,6 +12,7 @@ git emoji
 
 ### ローカルで立ち上げて同じwifi内の別端末(スマホなど)で確認
 1. `yarn devMobile`
+2. `http://your-pc-name` などでアクセス
 
 参考：
 By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
