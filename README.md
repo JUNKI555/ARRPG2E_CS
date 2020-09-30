@@ -13,6 +13,7 @@ git emoji
 ### ローカルで立ち上げて同じwifi内の別端末(スマホなど)で確認
 1. `yarn devMobile`
 2. `http://your-pc-name` などでアクセス
+3. 例えば Mac でならここなど参考 [iPhoneからMac上のRailsアプリにlocalhostでアクセスする方法 - もちゅろぐ](https://blog.mothule.com/mac/how-to-access-localhost-from-ios)
 
 参考：
 By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
