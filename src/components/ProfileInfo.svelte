@@ -8,14 +8,6 @@
   <table class="nes-table is-bordered is-dark"> 
   <tbody>
     <tr>
-      <td colspan="2">
-        <div class="nes-field">
-          <label for="input_character_name">キャラクター名</label>
-          <input type="text" id="input_character_name" class="nes-input is-dark" size="45">
-        </div>
-      </td>
-    </tr>
-    <tr>
       <td>
         <div class="nes-field is-inline">
           <label for="input_age">年齢</label>

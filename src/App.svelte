@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Title from './components/Title.svelte';
+	import CharacterName from './components/CharacterName.svelte';
 	import ProfileInfo from './components/ProfileInfo.svelte';
 	import LifePath from './components/LifePath.svelte';
 	import ClassInfoLv1 from './components/ClassInfoLv1.svelte';
@@ -21,6 +22,17 @@
 <main>
 <Title version={"0.01"} />
 <hr style="margin-bottom: 2em;">
+
+<div class="ar-nes-container-outer">
+	<div class="nes-container is-rounded is-dark with-title">
+		<p class="title">
+			<i class="nes-icon is-small heart"></i>キャラクター名&nbsp;
+		</p>
+		<div class="ar-nes-container-inner">
+			<CharacterName/>
+		</div>
+	</div>
+</div>
 
 <div class="ar-nes-container-outer">
 	<div class="nes-container is-rounded is-dark with-title">
