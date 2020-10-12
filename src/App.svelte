@@ -24,7 +24,9 @@
 
 <div class="ar-nes-container-outer">
 	<div class="nes-container is-rounded is-dark with-title">
-		<p class="title" on:click="{() => hideProfileInfo = !hideProfileInfo}">基本情報&nbsp;<i class="nes-icon close is-small"></i></p>
+		<p class="title" on:click="{() => hideProfileInfo = !hideProfileInfo}">
+			<i class="nes-icon is-small heart"></i>基本情報&nbsp;<i class="nes-icon close is-small"></i>
+		</p>
 		<div class="ar-nes-container-inner" class:hide="{hideProfileInfo}">
 			<ProfileInfo/>
 		</div>
@@ -33,7 +35,9 @@
 
 <div class="ar-nes-container-outer">
 	<div class="nes-container is-rounded is-dark with-title">
-		<p class="title" on:click="{() => hideLifePath = !hideLifePath}">ライフパス&nbsp;<i class="nes-icon close is-small"></i></p>
+		<p class="title" on:click="{() => hideLifePath = !hideLifePath}">
+			<i class="nes-icon is-small heart"></i>ライフパス&nbsp;<i class="nes-icon close is-small"></i>
+		</p>
 		<div class="ar-nes-container-inner" class:hide="{hideLifePath}">
 			<LifePath/>
 		</div>
@@ -42,7 +46,9 @@
 
 <div class="ar-nes-container-outer">
 	<div class="nes-container is-rounded is-dark with-title">
-		<p class="title" on:click="{() => hideClassInfoLv1 = !hideClassInfoLv1}">キャラクターLv1時のクラス&nbsp;<i class="nes-icon close is-small"></i></p>
+		<p class="title" on:click="{() => hideClassInfoLv1 = !hideClassInfoLv1}">
+			<i class="nes-icon is-small heart"></i>キャラクターLv1時のクラス&nbsp;<i class="nes-icon close is-small"></i>
+		</p>
 		<div class="ar-nes-container-inner" class:hide="{hideClassInfoLv1}">
 			<ClassInfoLv1/>
 		</div>
@@ -51,7 +57,9 @@
 
 <div class="ar-nes-container-outer">
 	<div class="nes-container is-rounded is-dark with-title">
-		<p class="title" on:click="{() => hideGuild = !hideGuild}">所属ギルド&nbsp;<i class="nes-icon close is-small"></i></p>
+		<p class="title" on:click="{() => hideGuild = !hideGuild}">
+			<i class="nes-icon is-small heart"></i>所属ギルド&nbsp;<i class="nes-icon close is-small"></i>
+		</p>
 		<div class="ar-nes-container-inner" class:hide="{hideGuild}">
 			<Guild/>
 		</div>
@@ -60,7 +68,9 @@
 
 <div class="ar-nes-container-outer">
 	<div class="nes-container is-rounded is-dark with-title">
-		<p class="title" on:click="{() => hideGeis = !hideGeis}">ゲッシュ&nbsp;<i class="nes-icon close is-small"></i></p>
+		<p class="title" on:click="{() => hideGeis = !hideGeis}">
+			<i class="nes-icon is-small heart"></i>ゲッシュ&nbsp;<i class="nes-icon close is-small"></i>
+		</p>
 		<div class="ar-nes-container-inner" class:hide="{hideGeis}">
 			<Geis/>
 		</div>
@@ -69,7 +79,9 @@
 
 <div class="ar-nes-container-outer">
 	<div class="nes-container is-rounded is-dark with-title">
-		<p class="title" on:click="{() => hideClassInfo = !hideClassInfo}">クラス情報&nbsp;<i class="nes-icon close is-small"></i></p>
+		<p class="title" on:click="{() => hideClassInfo = !hideClassInfo}">
+			<i class="nes-icon is-small heart"></i>クラス情報&nbsp;<i class="nes-icon close is-small"></i>
+		</p>
 		<div class="ar-nes-container-inner" class:hide="{hideClassInfo}">
 			<ClassInfo/>
 		</div>

@@ -117,6 +117,7 @@ button:focus {
 }
 
 .nes-field.is-inline > label {
+	text-align: left;
 	margin: 0;
 	flex-grow: 3;
 }
