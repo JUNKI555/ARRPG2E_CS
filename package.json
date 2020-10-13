@@ -27,6 +27,7 @@
     "typescript": "^3.9.3"
   },
   "dependencies": {
+    "roll-a-die": "^1.5.5",
     "sirv-cli": "^1.0.0"
   }
 }

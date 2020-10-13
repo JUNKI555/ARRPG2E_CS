@@ -69,6 +69,19 @@ button:focus {
 	border-color: #666;
 }
 
+/* roll a die 上書き */
+.left .dice-outer {
+	left: -150px;
+}
+
+.center .dice-outer {
+	left: -100px;
+}
+
+.dice-outer {
+	left: -50px;
+}
+
 /* NES.css 上書き */
 .nes-container {
 	padding: 2px 0.5rem;
@@ -95,7 +108,7 @@ button:focus {
 	border-image-width: 2;
 }
 
-.nes-balloon.is-dark, .nes-btn, .nes-dialog.is-rounded.is-dark, .nes-progress.is-rounded, .nes-select select, .nes-table.is-dark.is-bordered {
+.nes-balloon.is-dark, .nes-btn, .nes-dialog.is-rounded.is-dark, .nes-progress.is-rounded, .nes-select.is-dark select, .nes-table.is-dark.is-bordered {
 	border-width: 2px;
 }
 
