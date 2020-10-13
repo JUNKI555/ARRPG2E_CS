@@ -7,6 +7,7 @@
 	import Guild from './components/Guild.svelte';
 	import Geis from './components/Geis.svelte';
 	import ClassInfo from './components/ClassInfo.svelte';
+	import RollDice from './components/RollDice.svelte';
 	export let name: string;
 	name = "hoge";
 
@@ -96,6 +97,17 @@
 		</p>
 		<div class="ar-nes-container-inner" class:hide="{hideClassInfo}">
 			<ClassInfo/>
+		</div>
+	</div>
+</div>
+
+<div class="ar-nes-container-outer">
+	<div class="nes-container is-rounded is-dark with-title">
+		<p class="title">
+			<i class="nes-icon is-small heart"></i>ダイスロール&nbsp;
+		</p>
+		<div class="ar-nes-container-inner">
+			<RollDice/>
 		</div>
 	</div>
 </div>
