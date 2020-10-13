@@ -10,7 +10,13 @@
         <td>
           <div class="nes-field is-inline">
             <label for="input_main_class">メインクラス</label>
-            <input type="text" id="input_main_class" class="nes-input is-dark" size="40">
+            <input type="text" list="main_classes" id="input_main_class" class="nes-input is-dark" size="40">
+            <datalist id="main_classes">
+              <option value="ウォーリア"></option>
+              <option value="アコライト"></option>
+              <option value="メイジ"></option>
+              <option value="シーフ"></option>
+            </datalist>
           </div>
         </td>
       </tr>
