@@ -24,7 +24,23 @@
         <td>
           <div class="nes-field is-inline">
             <label for="input_support_class">サポートクラス</label>
-            <input type="text" id="input_support_class" class="nes-input is-dark">
+            <input type="text" list="support_classes" id="input_support_class" class="nes-input is-dark">
+            <datalist id="support_classes">
+              <option value="ウォーリア"></option>
+              <option value="アコライト"></option>
+              <option value="メイジ"></option>
+              <option value="シーフ"></option>
+              <option value="アルケミスト"></option>
+              <option value="ガンスリンガー"></option>
+              <option value="サムライ"></option>
+              <option value="サモナー"></option>
+              <option value="セージ"></option>
+              <option value="ダンサー"></option>
+              <option value="ニンジャ"></option>
+              <option value="バード"></option>
+              <option value="モンク"></option>
+              <option value="レンジャー"></option>
+            </datalist>
           </div>
         </td>
       </tr>
