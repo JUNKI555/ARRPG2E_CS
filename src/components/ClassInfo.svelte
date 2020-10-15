@@ -47,22 +47,6 @@
       <tr>
         <td>
           <div class="nes-field is-inline">
-            <label for="input_secondary_support_class">第二サポート</label>
-            <input type="text" id="input_secondary_support_class" class="nes-input is-dark">
-          </div>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <div class="nes-field is-inline">
-            <label for="input_named_class">称号クラス</label>
-            <input type="text" id="input_named_class" class="nes-input is-dark">
-          </div>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <div class="nes-field is-inline">
             <label for="input_family">種族</label>
             <input type="text" list="list_family" id="input_family" class="nes-input is-dark">
             <datalist id="list_family">
