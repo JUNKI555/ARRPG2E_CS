@@ -1,5 +1,9 @@
 # Arianrhod RPG 2E Character Sheet Project.
 
+## 素晴らしい先行ツール様
+- アリアンロッド キャラクター作成補助ツール - 全て非公式
+  - http://allunofficial.net/trpg/arianrhod_pc_making.html
+
 ## commit messages
 git emoji
 参考：[gitmoji](https://gitmoji.carloscuesta.me/)
