@@ -10,8 +10,8 @@
         <td>
           <div class="nes-field is-inline">
             <label for="input_main_class">メインクラス</label>
-            <input type="text" list="main_classes" id="input_main_class" class="nes-input is-dark" size="40">
-            <datalist id="main_classes">
+            <input type="text" list="list_main_class" id="input_main_class" class="nes-input is-dark" size="40">
+            <datalist id="list_main_class">
               <option value="ウォーリア"></option>
               <option value="アコライト"></option>
               <option value="メイジ"></option>
@@ -24,8 +24,8 @@
         <td>
           <div class="nes-field is-inline">
             <label for="input_support_class">サポートクラス</label>
-            <input type="text" list="support_classes" id="input_support_class" class="nes-input is-dark">
-            <datalist id="support_classes">
+            <input type="text" list="list_support_class" id="input_support_class" class="nes-input is-dark">
+            <datalist id="list_support_class">
               <option value="ウォーリア"></option>
               <option value="アコライト"></option>
               <option value="メイジ"></option>
@@ -64,7 +64,16 @@
         <td>
           <div class="nes-field is-inline">
             <label for="input_family">種族</label>
-            <input type="text" id="input_family" class="nes-input is-dark">
+            <input type="text" list="list_family" id="input_family" class="nes-input is-dark">
+            <datalist id="list_family">
+              <option value="ヒューリン"></option>
+              <option value="エルダナーン"></option>
+              <option value="ネヴァーフ"></option>
+              <option value="フィルボル"></option>
+              <option value="ヴァーナ"></option>
+              <option value="ドゥアン"></option>
+              <option value="アーシアン"></option>
+            </datalist>
           </div>
         </td>
       </tr>

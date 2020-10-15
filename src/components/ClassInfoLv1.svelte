@@ -10,8 +10,8 @@
         <td>
           <div class="nes-field is-inline">
             <label for="input_lv1_main_class">メインクラス</label>
-            <input type="text" list="lv1_main_classes" id="input_lv1_main_class" class="nes-input is-dark" size="40">
-            <datalist id="lv1_main_classes">
+            <input type="text" list="list_lv1_main_class" id="input_lv1_main_class" class="nes-input is-dark" size="40">
+            <datalist id="list_lv1_main_class">
               <option value="ウォーリア"></option>
               <option value="アコライト"></option>
               <option value="メイジ"></option>
@@ -24,8 +24,8 @@
         <td>
           <div class="nes-field is-inline">
             <label for="input_lv1_support_class">サポートクラス</label>
-            <input type="text" list="lv1_support_classes" id="input_lv1_support_class" class="nes-input is-dark">
-            <datalist id="lv1_support_classes">
+            <input type="text" list="list_lv1_support_class" id="input_lv1_support_class" class="nes-input is-dark">
+            <datalist id="list_lv1_support_class">
               <option value="ウォーリア"></option>
               <option value="アコライト"></option>
               <option value="メイジ"></option>
